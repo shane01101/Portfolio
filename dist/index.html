@@ -1,424 +1,408 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<link
-			rel="stylesheet"
-			href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-			integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-			crossorigin="anonymous"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-			crossorigin="anonymous"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
-		/>
-		<link rel="stylesheet" href="css/style.css" />
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-		<title>Bootstrap Theme</title>
+		<title>Shane Honanie</title>
+
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"
+		/>
+		<script
+			src="https://kit.fontawesome.com/d4e16c04e7.js"
+			crossorigin="anonymous"
+		></script>
+
+		<!-- Google Fonts -->
+		<!-- <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:300,400" rel="stylesheet"> -->
+		<link
+			href="https://fonts.googleapis.com/css?family=Open+Sans:300,400"
+			rel="stylesheet"
+		/>
+
+		<link
+			rel="stylesheet"
+			href="https://cdn.rawgit.com/konpa/devicon/4f6a4b08efdad6bb29f9cc801f5c07e263b39907/devicon.min.css"
+		/>
+
+		<link rel="stylesheet" href="css/styles.css" />
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- Leave those next 4 lines if you care about users using IE8 -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-			<div class="container">
-				<a href="index.html" class="navbar-brand">Glozzom</a>
-				<button
-					class="navbar-toggler"
-					data-toggle="collapse"
-					data-target="navbarCollapse"
-				>
-					<span class="navbar toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarCollapse">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item active">
-							<a href="index.html" class="nav-link">Home</a>
-						</li>
-						<li class="nav-item">
-							<a href="about.html" class="nav-link">About Us</a>
-						</li>
-						<li class="nav-item">
-							<a href="services.html" class="nav-link">Services</a>
-						</li>
-						<li class="nav-item">
-							<a href="blog.html" class="nav-link">Blog</a>
-						</li>
-						<li class="nav-item">
-							<a href="contact.html" class="nav-link">Contact</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-
-		<!-- SHOWCASE SLIDER -->
-		<section id="showcase">
-			<div id="myCarousel" class="carousel slide" data-ride="carousel">
-				<ol class="carousel-indicators">
-					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-					<li data-target="#myCarousel" data-slide-to="1"></li>
-					<li data-target="#myCarousel" data-slide-to="2"></li>
-				</ol>
-				<div class="carousel-inner">
-					<div class="carousel-item carousel-image-1 active">
-						<div class="container">
-							<div class="carousel-caption d-none d-sm-block text-right mb-5">
-								<h1 class="display-3">Heading One</h1>
-								<p class="lead">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
-									aperiam vel ullam deleniti reiciendis ratione quod aliquid
-									inventore vero perspiciatis.
-								</p>
-								<a href="#" class="btn btn-danger btn-lg">Sign Up Now</a>
-							</div>
-						</div>
-					</div>
-
-					<div class="carousel-item carousel-image-2">
-						<div class="container">
-							<div class="carousel-caption d-none d-sm-block mb-5">
-								<h1 class="display-3">Heading Two</h1>
-								<p class="lead">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
-									aperiam vel ullam deleniti reiciendis ratione quod aliquid
-									inventore vero perspiciatis.
-								</p>
-								<a href="#" class="btn btn-primary btn-lg">Learn More</a>
-							</div>
-						</div>
-					</div>
-
-					<div class="carousel-item carousel-image-3">
-						<div class="container">
-							<div class="carousel-caption d-none d-sm-block text-right mb-5">
-								<h1 class="display-3">Heading Three</h1>
-								<p class="lead">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
-									aperiam vel ullam deleniti reiciendis ratione quod aliquid
-									inventore vero perspiciatis.
-								</p>
-								<a href="#" class="btn btn-success btn-lg">Learn More</a>
-							</div>
-						</div>
+		<div class="container-fluid">
+			<div class="row text-center row-header">
+				<div class="col-xs-12">
+					<div class="header-col">
+						<img
+							src="img/shane-profile.png"
+							alt="profile pic"
+							class="img-responsive profile-pic center-block"
+						/>
+						<h1>Shane Honanie</h1>
+						<h2>Full Stack Developer</h2>
+						<a
+							href="mailto:shanehonanie@gmail.com"
+							class="email"
+							target="_blank"
+							><span
+								class="glyphicon glyphicon-envelope"
+								aria-hidden="true"
+							></span
+							>shanehonanie@gmail.com</a
+						>
+						<br />
+						<a href="https://github.com/shane01101" target="_blank"
+							><span class="fab fa-github" aria-hidden="true"></span>
+							https://github.com/shane01101</a
+						>
+						<br />
+						<a
+							target="_blank"
+							href="img\resume\Shane_Honanie_Resume_PB_11_13_19.pdf"
+							><i class="fas fa-file"></i> Resume</a
+						>
 					</div>
 				</div>
-
-				<a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
-					<span class="carousel-control-prev-icon"></span>
-				</a>
-
-				<a href="#myCarousel" data-slide="next" class="carousel-control-next">
-					<span class="carousel-control-next-icon"></span>
-				</a>
 			</div>
-		</section>
 
-		<!-- HOME ICON SECTION -->
-		<section id="home-icons" class="py-5">
-			<div class="container">
+			<!-- Projects -->
+			<section style="margin-top:0">
 				<div class="row">
-					<div class="col-md-4 mb-4 text-center">
-						<i class="fas fa-cog fa-3x mb-2"></i>
-						<h3>Turning Gears</h3>
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt,
-							neque?
-						</p>
-					</div>
-					<div class="col-md-4 mb-4 text-center">
-						<i class="fas fa-cloud fa-3x mb-2"></i>
-						<h3>Sending Data</h3>
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt,
-							neque?
-						</p>
-					</div>
-					<div class="col-md-4 mb-4 text-center">
-						<i class="fas fa-cart-plus fa-3x mb-2"></i>
-						<h3>Making Money</h3>
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt,
-							neque?
-						</p>
+					<div class="col xs-12">
+						<h1 class="text-center section-heading">Projects</h1>
 					</div>
 				</div>
-			</div>
-		</section>
 
-		<!-- HOME HEADING SECTION -->
-		<section id="home-heading" class="p-5">
-			<div class="dark-overlay">
 				<div class="row">
-					<div class="col">
-						<div class="container pt-5">
-							<h1>Are you ready to get started?</h1>
-							<p class="d-none d-md-block">
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-								officia delectus quidem maiores laborum! Modi quaerat ipsa
-								debitis id earum.
+					<div class="col-sm-8 col-sm-offset-2">
+						<!-- <div class="col-lg-8">
+							<img
+								src="img/projects/_blank_.png"
+								alt=""
+								class="img-responsive center-block"
+							/>
+						</div> -->
+
+						<div class="col-lg-8">
+							<h3>Mactro Tracker (2019)</h3>
+							<p>
+								MERN stack website that assists users in tracking daily calories
+								by entering food data.
+							</p>
+							<p>
+								Utilized: React.js/Redux, Express.js, Node.js, MongoDB,
+								Bootstrap, Heroku
+							</p>
+							<p>
+								<a target="_blank" href="https://macrotracker19.herokuapp.com/"
+									><i class="fab fa-chrome"> Launch</i></a
+								>
+							</p>
+							<p>
+								<a
+									target="_blank"
+									href="https://github.com/shane01101/Macro-Tracker"
+									><i class="fab fa-github"> Code</i></a
+								>
 							</p>
 						</div>
+
+						<div class="col-lg-8">
+							<h3>Project Kanban Tool (2019)</h3>
+							<p>
+								Each project is broken down into tasks which are grouped and
+								sorted by priorities and statuses.
+							</p>
+							<p>
+								Utilized: React.js/Redux, Spring Boot/Core/MVC/Security , SQL,
+								Bootstrap, Heroku
+							</p>
+							<p>
+								<a
+									target="_blank"
+									href="https://shrouded-shelf-75335.herokuapp.com/"
+									><i class="fab fa-chrome"> Launch</i></a
+								>
+							</p>
+							<p>
+								<a
+									target="_blank"
+									href="https://github.com/shane01101/PPMTool-Java-Spring-Prod"
+									><i class="fab fa-github"> Code</i></a
+								>
+							</p>
+						</div>
+
+						<div class="col-lg-8">
+							<h3>GitHub Profile with Charts Website (2019)</h3>
+							<p>
+								Perform axios requests to the GitHub API to search and show any
+								GitHub users profile. Google Charts is used to visualize the
+								users profile activity by languages used, forks, and stars
+								distribution. (Coming 11/15)
+							</p>
+							<p>Utilized: React.js, Netlify</p>
+							<p>
+								<a
+									target="_blank"
+									href="https://githubfinder392748459.netlify.com/"
+									><i class="fab fa-chrome"> Launch</i></a
+								>
+							</p>
+						</div>
+
+						<div class="col-lg-8">
+							<h3>OpenSEA Seakeeping Software (2013)</h3>
+							<p>
+								Worked with a marine engineer to develop open source seakeeping
+								software available on GitHub. Read in data from multiple text
+								files and used third party armadillo linear algebra library to
+								solve equations. Various equation solutions were the forces and
+								motions acting upon the ships used for design and safety.
+							</p>
+							<p>Utilized: C++, Visual Studio, and Qt</p>
+							<p>
+								<a
+									target="_blank"
+									href="https://github.com/DatawaveMarineScience/OpenSEA"
+									><i class="fab fa-github"> Code</i></a
+								>
+							</p>
+						</div>
+
+						<!-- <div class="col-xs-12 text-center">
+							<img
+								src="img/techlogos/android.png"
+								alt="android logo"
+								class="techlogo"
+							/>
+							<img
+								src="img/techlogos/androidstudio.png"
+								alt="firebase logo"
+								class="techlogo"
+							/>
+							<img
+								src="img/techlogos/java.png"
+								alt="android studio logo"
+								class="techlogo"
+							/>
+							<img
+								src="img/techlogos/firebase.png"
+								alt="java logo"
+								class="techlogo"
+							/>
+						</div> -->
 					</div>
 				</div>
-			</div>
-		</section>
+			</section>
 
-		<!-- INFO SECTION -->
-		<section id="info" class="py-3">
-			<div class="container">
+			<hr />
+
+			<!-- Technical Experience -->
+			<section>
 				<div class="row">
-					<div class="col-md-6 align-self-center">
-						<h3>Lorem Ipsum</h3>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti
-							officiis dolore ipsum non tempore. Est ipsum nobis blanditiis
-							ipsam aperiam?
-						</p>
-						<a href="about.html" class="btn btn-outline-danger btn-lg"
-							>Learn More</a
-						>
-					</div>
-					<div class="col-md-6">
-						<img src="img/laptop.png" alt="" class="img-fluid" />
+					<div class="col xs-12">
+						<h1 class="text-center section-heading">Technologies</h1>
 					</div>
 				</div>
-			</div>
-		</section>
 
-		<!-- VIDEO PLAY -->
-		<section id="video-play">
-			<div class="dark-overlay">
-				<div class="row">
-					<div class="col">
-						<div class="containter p-5">
-							<a
-								href="#"
-								class="video"
-								data-video="https://www.youtube.com/embed/jsHX1cFL41w"
-								data-toggle="modal"
-								data-target="#videoModal"
-							>
-								<i class="fas fa-play fa-3x"></i>
-							</a>
-							<h1>See The GOAT</h1>
+				<div class="row text-center">
+					<div class="col-xs-12">
+						<div class="list-container">
+							<!--             <div class="tech-item">
+              <i class="devicon-heroku-plain-wordmark colored"></i>
+            </div> -->
+							<span class="tech-item">
+								<i class="devicon-java-plain colored"></i>
+								<span class="tech-item-text">
+									Java
+								</span>
+							</span>
+							<span class="tech-item">
+								<i class="devicon-javascript-plain colored"></i>
+								<span class="tech-item-text">
+									Javascript
+								</span>
+							</span>
+							<span class="tech-item">
+								<i class="devicon-react-original-wordmark colored"></i>
+								<span class="tech-item-text">
+									React
+								</span>
+							</span>
+							<span class="tech-item">
+								<i class="devicon-mongodb-plain-wordmark colored"></i>
+								<span class="tech-item-text">
+									MongoDB
+								</span>
+							</span>
+							<span class="tech-item">
+								<i class="devicon-mysql-plain-wordmark colored"></i>
+								<span class="tech-item-text">
+									SQL
+								</span>
+							</span>
+							<span class="tech-item">
+								<i class="devicon-html5-plain colored"></i>
+								<span class="tech-item-text">
+									HTML
+								</span>
+							</span>
+							<span class="tech-item">
+								<i class="devicon-cplusplus-plain colored"></i>
+								<span class="tech-item-text">
+									C++
+								</span>
+							</span>
+							<span class="tech-item">
+								<i class="devicon-csharp-plain colored"></i>
+								<span class="tech-item-text">
+									C#
+								</span>
+							</span>
+							<span class="tech-item">
+								<i class="devicon-python-plain colored"></i>
+								<span class="tech-item-text">
+									Python
+								</span>
+							</span>
+							<span class="tech-item">
+								<i class="devicon-android-plain colored"></i>
+								<span class="tech-item-text">
+									Android
+								</span>
+							</span>
+							<span class="tech-item">
+								<i class="devicon-bootstrap-plain colored"></i>
+								<span class="tech-item-text">
+									Bootstrap
+								</span>
+							</span>
 						</div>
 					</div>
 				</div>
-			</div>
-		</section>
+			</section>
 
-		<!-- PHOTO GALLERY -->
-		<section id="gallery" class="py-5">
-			<div class="container">
-				<h1 class="text-center">Photo Gallery</h1>
-				<p class="text-center">Check out our Photos</p>
-				<div class="row mb-4">
-					<div class="col-md-4">
-						<a
-							href="https://source.unsplash.com/random/560x560"
-							data-toggle="lightbox"
-							data-gallery="img-gallery"
-							data-height="560"
-							data-width="560"
-						>
-							<img
-								src="https://source.unsplash.com/random/560x560"
-								alt=""
-								class="img-fluid"
-							/>
-						</a>
-					</div>
+			<hr />
 
-					<div class="col-md-4">
-						<a
-							href="https://source.unsplash.com/random/561x561"
-							data-toggle="lightbox"
-							data-gallery="img-gallery"
-							data-height="561"
-							data-width="561"
-						>
-							<img
-								src="https://source.unsplash.com/random/561x561"
-								alt=""
-								class="img-fluid"
-							/>
-						</a>
-					</div>
-
-					<div class="col-md-4">
-						<a
-							href="https://source.unsplash.com/random/562x562"
-							data-toggle="lightbox"
-							data-gallery="img-gallery"
-							data-height="562"
-							data-width="562"
-						>
-							<img
-								src="https://source.unsplash.com/random/562x562"
-								alt=""
-								class="img-fluid"
-							/>
-						</a>
-					</div>
-				</div>
-
-				<div class="row mb-4">
-					<div class="col-md-4">
-						<a
-							href="https://source.unsplash.com/random/563x563"
-							data-toggle="lightbox"
-							data-gallery="img-gallery"
-							data-height="563"
-							data-width="563"
-						>
-							<img
-								src="https://source.unsplash.com/random/563x563"
-								alt=""
-								class="img-fluid"
-							/>
-						</a>
-					</div>
-
-					<div class="col-md-4">
-						<a
-							href="https://source.unsplash.com/random/564x564"
-							data-toggle="lightbox"
-							data-gallery="img-gallery"
-							data-height="564"
-							data-width="564"
-						>
-							<img
-								src="https://source.unsplash.com/random/564x564"
-								alt=""
-								class="img-fluid"
-							/>
-						</a>
-					</div>
-
-					<div class="col-md-4">
-						<a
-							href="https://source.unsplash.com/random/565x565"
-							data-toggle="lightbox"
-							data-gallery="img-gallery"
-							data-height="565"
-							data-width="565"
-						>
-							<img
-								src="https://source.unsplash.com/random/565x565"
-								alt=""
-								class="img-fluid"
-							/>
-						</a>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<!-- NEWSLETTER -->
-		<section id="newsletter" class="text-center p-5 bg-dark text-white">
-			<div class="container">
+			<section>
 				<div class="row">
-					<div class="col">
-						<h1>Sign Up for Our Newsletter</h1>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum
-							omnis id pariatur adipisci, sapiente numquam impedit nisi deleniti
-							iusto possimus?
-							<form class="form-inline justify-content-center">
-								<input type="text" class="form-control mb-2 mr-2" placeholder="Enter Name">
-								<input type="text" class="form-control mb-2 mr-2" placeholder="Enter Email">
-								<button class="btn btn-primary mb-2">Submit</button>
-							</form>
-						</p>
+					<div class="col xs-12">
+						<h1 class="text-center section-heading">Tools</h1>
 					</div>
 				</div>
-			</div>
-		</section>
 
-		<!-- FOOTER -->
-		<footer id="main-footer" class="text-center p-4">
-			<div class="container">
-				<div class="row">
-					<div class="col">
-						<p>Copyright &copy; <span id="year"></span> Glozzom</p>
+				<div class="row text-center">
+					<div class="col-xs-12">
+						<div class="list-container">
+							<span class="tech-tool-item">
+								<span
+									class="glyphicon glyphicon glyphicon-ok"
+									aria-hidden="true"
+								></span>
+								Eclipse
+							</span>
+							<span class="tech-tool-item">
+								<span
+									class="glyphicon glyphicon glyphicon-ok"
+									aria-hidden="true"
+								></span>
+								Visual Studio Code
+							</span>
+							<span class="tech-tool-item">
+								<span
+									class="glyphicon glyphicon glyphicon-ok"
+									aria-hidden="true"
+								></span>
+								IntelliJ IDEA
+							</span>
+							<span class="tech-tool-item">
+								<span
+									class="glyphicon glyphicon glyphicon-ok"
+									aria-hidden="true"
+								></span>
+								Netbeans
+							</span>
+							<span class="tech-tool-item">
+								<span
+									class="glyphicon glyphicon glyphicon-ok"
+									aria-hidden="true"
+								></span>
+								Microsoft SQL Server
+							</span>
+							<span class="tech-tool-item">
+								<span
+									class="glyphicon glyphicon glyphicon-ok"
+									aria-hidden="true"
+								></span>
+								Android Studio
+							</span>
+							<span class="tech-tool-item">
+								<span
+									class="glyphicon glyphicon glyphicon-ok"
+									aria-hidden="true"
+								></span>
+								Apache Tomcat
+							</span>
+							<span class="tech-tool-item">
+								<span
+									class="glyphicon glyphicon glyphicon-ok"
+									aria-hidden="true"
+								></span>
+								Postman
+							</span>
+							<span class="tech-tool-item">
+								<span
+									class="glyphicon glyphicon glyphicon-ok"
+									aria-hidden="true"
+								></span>
+								npm
+							</span>
+							<span class="tech-tool-item">
+								<span
+									class="glyphicon glyphicon glyphicon-ok"
+									aria-hidden="true"
+								></span>
+								Git
+							</span>
+							<span class="tech-tool-item">
+								<span
+									class="glyphicon glyphicon glyphicon-ok"
+									aria-hidden="true"
+								></span>
+								AWS
+							</span>
+						</div>
 					</div>
 				</div>
-			</div>
-		</footer>
+			</section>
 
-		<!-- VIDEO MODAL -->
-		<div class="modal fade" id="videoModal">
-			<div class="modal-dialog">
-				<div class="modal-content">
-					<div class="modal-body">
-						<button class="close" data-dismiss="modal">
-							<span>&times;</span>
-						</button>
-						<iframe
-							src=""
-							frameborder="0"
-							height="350"
-							width="100%"
-							allowfullscreen
-						></iframe>
-					</div>
+			<div class="row row-footer">
+				<div class="col footer-col text-center">
+					<h3>I'm available for work</h3>
+					<a href="mailto:shanehonanie@gmail.com" class="email" target="_blank"
+						><span
+							class="glyphicon glyphicon-envelope"
+							aria-hidden="true"
+						></span
+						>shanehonanie@gmail.com</a
+					>
 				</div>
 			</div>
 		</div>
+		<!-- end container -->
 
-		<script
-			src="http://code.jquery.com/jquery-3.3.1.min.js"
-			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-			integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-			crossorigin="anonymous"
-		></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
-		<script>
-			// Get the current year for copyright
-			$('#year').text(new Date().getFullYear());
-
-			// Configure Slider
-			$('.carousel').carousel({
-				interval: 6000,
-				pause: 'hover'
-			});
-
-			// Lightbox Init
-			$(document).on('click', '[data-toggle="lightbox"]', function(event) {
-				event.preventDefault();
-				$(this).ekkoLightbox();
-			});
-
-			// Video Play
-			$(function() {
-				// Auto play modal video
-				$('.video').click(function() {
-					var theModal = $(this).data('target'),
-						videoSRC = $(this).attr('data-video'),
-						videoSRCauto =
-							videoSRC +
-							'?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1';
-					$(theModal + ' iframe').attr('src', videoSRCauto);
-					$(theModal + ' button.close').click(function() {
-						$(theModal + ' iframe').attr('src', videoSRC);
-					});
-				});
-			});
-		</script>
+		<!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 	</body>
 </html>
